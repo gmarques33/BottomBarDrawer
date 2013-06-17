@@ -18,3 +18,7 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+
+bottombardrawer-example/.idea/.name
+
+bottombardrawer-example/target/generated-sources/r/com/actionbarsherlock/BuildConfig.java
