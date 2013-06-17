@@ -20,6 +20,8 @@ Developed By
 
 * Martin Rajniak - <rajniak.m@gmail.com>
 
+* Merged by Giovanni Marques - <giovannimarques33@gmail.com>
+    - I merged this to suit my needs
 
 
 License

@@ -15,14 +15,37 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context=".MainActivity" >
+        <Button
+                android:id="@+id/botao"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:text="Open"/>
+
     </RelativeLayout>
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FF0000" />
+            android:background="#FF0000" >
+            <LinearLayout android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+            <View android:layout_width="match_parent"
+                  android:layout_height="75dp"/>
+
+
+            <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/listview"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="75dp"
