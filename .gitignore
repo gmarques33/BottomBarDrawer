@@ -19,6 +19,24 @@ local.properties
 .classpath
 .project
 
-bottombardrawer-example/.idea/.name
+bottombardrawer-example/.idea/
 
-bottombardrawer-example/target/generated-sources/r/com/actionbarsherlock/BuildConfig.java
+bottombardrawer-example/target/
+
+bottombardrawer-example/gen/
+
+bottombardrawer-example/out/
+
+bottombardrawer-example/project.properties
+
+bottombardrawer/.idea/
+
+bottombardrawer/target/
+
+bottombardrawer/gen/
+
+bottombardrawer/out/
+
+bottombardrawer/project.properties
+
+*.iml
